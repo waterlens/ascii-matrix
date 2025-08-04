@@ -37,4 +37,4 @@ ASCII Matrix displays a pretty 16x16 grid that contains ASCII characters (as wel
 
 This produces the following diagram:
 
-![The generated ASCII matrix diagram for the example above](gallery/example.png)
+![The generated ASCII matrix diagram for the example above](https://github.com/waterlens/ascii-matrix/blob/main/gallery/example.png)
