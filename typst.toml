@@ -8,3 +8,4 @@ description = "Displaying ASCII tables with a 16x16 grid and overlays on element
 repository = "https://github.com/waterlens/ascii-matrix"
 keywords = ["ascii", "table", "overlay"]
 categories = ["visualization"]
+exclude = ["example.typ", "example2.typ"]
