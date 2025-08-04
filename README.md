@@ -5,6 +5,8 @@ ASCII Matrix displays a pretty 16x16 grid that contains ASCII characters (as wel
 ## Usage
 
 ```typst
+#import "@preview/ascii-matrix:0.1.0": make-ascii-matrix
+
 #set text(
   font: (
     (name: "Arial Unicode MS", covers: regex("[\u2400-\u243f]")),
@@ -30,5 +32,9 @@ ASCII Matrix displays a pretty 16x16 grid that contains ASCII characters (as wel
   ((0, 7), (10, 7), blue.transparentize(85%)),
 )
 
-#make-ascii-table(frames, masks)
+#make-ascii-matrix(frames, masks)
 ```
+
+This produces the following diagram:
+
+![The generated ASCII matrix diagram for the example above](gallery/example.png)

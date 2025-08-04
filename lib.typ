@@ -2,7 +2,7 @@
 #import draw: content, rect
 
 
-#let make-ascii-table(frames, coverings) = {
+#let make-ascii-matrix(frames, coverings) = {
   canvas({
     let labels = "0123456789ABCDEF".split("").slice(1)
     let cell-size = 1. // Size of each heatmap cell
