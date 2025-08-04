@@ -1,4 +1,4 @@
-#import "./lib.typ": make-ascii-matrix
+#import "@preview/ascii-matrix:0.1.0": make-ascii-matrix
 
 #let covering = (
   ("col", 0, 10, blue, "0x1"),
