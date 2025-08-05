@@ -1,5 +1,6 @@
-make-package:
-    cp lib.typ typst.toml README.md LICENSE package
+make-package version:
+    mkdir -p packages/preview/asciim/{{version}}
+    cp lib.typ typst.toml README.md LICENSE packages/preview/asciim/{{version}}/
 
 compile-example:
     #!/usr/bin/env sh
