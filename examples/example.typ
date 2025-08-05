@@ -1,4 +1,4 @@
-#import "@preview/ascii-matrix:0.1.0": make-ascii-matrix
+#import "../lib.typ": make-ascii-matrix
 
 #set text(
   font: (
